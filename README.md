@@ -7,7 +7,7 @@ separately from background thread (producer) to main thread (collector). For Sin
 files in list. For Flow, - everything is the same as with others, but file searching is done in main thread.
 Also, I only used one background thread (where it is possible) for file walking
 
-After 10 tries for each observer, I have received next results:
+After 10 tries of searching files in folder with 65K files in total (I was searching for all '.xml' files and found 930 of them), I have received next results for each observer:
 
 ## RxJava
 
